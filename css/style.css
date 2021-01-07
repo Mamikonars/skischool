@@ -1,0 +1,689 @@
+/* roboto-regular - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/roboto-v20-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('../fonts/roboto-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/roboto-v20-latin-regular.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/roboto-v20-latin-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/roboto-v20-latin-regular.svg#Roboto') format('svg');
+	/* Legacy iOS */
+}
+
+/* roboto-700 - latin */
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/roboto-v20-latin-700.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('../fonts/roboto-v20-latin-700.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/roboto-v20-latin-700.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/roboto-v20-latin-700.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/roboto-v20-latin-700.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/roboto-v20-latin-700.svg#Roboto') format('svg');
+	/* Legacy iOS */
+}
+
+/* catamaran-regular - latin */
+@font-face {
+	font-family: 'Catamaran';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/catamaran-v7-latin-regular.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('../fonts/catamaran-v7-latin-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/catamaran-v7-latin-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/catamaran-v7-latin-regular.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/catamaran-v7-latin-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/catamaran-v7-latin-regular.svg#Catamaran') format('svg');
+	/* Legacy iOS */
+}
+
+/* catamaran-900 - latin */
+@font-face {
+	font-family: 'Catamaran';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/catamaran-v7-latin-900.eot');
+	/* IE9 Compat Modes */
+	src: local(''),
+		url('../fonts/catamaran-v7-latin-900.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/catamaran-v7-latin-900.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('../fonts/catamaran-v7-latin-900.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/catamaran-v7-latin-900.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/catamaran-v7-latin-900.svg#Catamaran') format('svg');
+	/* Legacy iOS */
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+
+body {
+	font-family: "Roboto";
+	color: #000;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.wrapper {
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+
+.cover_image {
+	object-fit: cover;
+}
+
+.wrapper {
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container-layout {
+	max-width: 1680px;
+	padding: 0 15px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 1260px;
+	padding: 0 15px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* home */
+
+.home {
+	background: #325785;
+	background-image: radial-gradient(#4d7da9, #325785);
+	height: 100vh;
+	margin-bottom: 230px;	
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 130px;
+}
+
+.nav-list {
+	display: flex;
+	margin-left: auto;
+	align-items: center;
+	padding-right: 30px;
+}
+
+.nav-list__link {
+	font-size: 16px;
+	line-height: 90px;
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	color: #ffffff;
+	margin-left: 41px;
+	transition: color .3s;
+	-webkit-transition: color .3s;
+	-moz-transition: color .3s;
+	-ms-transition: color .3s;
+	-o-transition: color .3s;
+}
+
+.nav-list__link:hover {
+	color: #ff690f;
+}
+
+.toggle {
+	left: 0;
+}
+
+.promo-suptitle {
+	font-family: Catamaran;
+	font-size: 30px;
+	line-height: 90px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #fefefe;
+	text-align: center;
+	display: block;
+}
+
+.promo-title {
+	opacity: 0.4;
+	font-family: Catamaran;
+	font-size: 250px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: -0.05em;
+	color: #fefefe;
+	text-align: center;
+	margin-top: 44px;
+}
+
+.promo-block {
+	/* background: #325785; */
+	background-image: url(../img/promo-bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 900px;
+	position: relative;
+	bottom: 324px;
+}
+
+.promo-block__desc {
+	position: absolute;
+	bottom: 50%;
+	left: 18%;
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #fefefe;
+	max-width: 660px;
+	text-shadow: 2px 1px 3px rgba(255, 110, 0, 1);
+}
+
+button {
+	background: transparent;
+	box-shadow: 0px 0px 0px transparent;
+	border: 0px solid transparent;
+	text-shadow: 0px 0px 0px transparent;
+}
+
+button:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 0px transparent;
+	border: 0px solid transparent;
+	text-shadow: 0px 0px 0px transparent;
+}
+
+button:active {
+	outline: none;
+	border: none;
+}
+
+button:focus {
+	outline: 0;
+}
+
+.btn {
+	background-color: #ff690f;
+	border-radius: 6px;
+	text-transform: uppercase;
+	font-family: Catamaran;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fefefe;
+	transition: background .3s;
+	-webkit-transition: background .3s;
+	-moz-transition: background .3s;
+	-ms-transition: background .3s;
+	-o-transition: background .3s;
+}
+
+.promo-btn {
+	padding: 25px 45px;
+
+}
+
+.btn:hover {
+	background-color: #dc5300;
+}
+
+/* promo header /*/
+
+
+/* offer section */
+.wrapper .offer {
+	padding: 80px 30px;
+}
+
+.offer {
+	text-align: center;
+}
+
+.section__title {
+	font-size: 60px;
+	font-weight: 900;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	font-family: 'Catamaran';
+	color: #333333;
+	text-align: center;
+}
+
+.offer__desc {
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: 300;
+	letter-spacing: 0.01em;
+	color: #565656;
+}
+
+.offer-ul {
+	margin-top: 72px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.offer__list {
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: auto;
+	/* max-width: 243px; */
+	width: 33%;
+}
+
+.offer__img {}
+
+.offer__suptitle {
+	margin-top: 45px;
+	display: block;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0.01em;
+	color: #565656;
+}
+
+.offer__title {
+	font-family: Catamaran;
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: 900;
+	letter-spacing: 0.01em;
+	color: #333333;
+}
+
+.offer__btn {
+	padding: 17px 23px;
+}
+
+/* offer section /*/
+
+/* gallery section /*/
+
+.gallery-list {
+	display: flex;
+	flex-wrap: wrap;
+	max-height: 1100px;
+	flex-direction: column;
+}
+
+.gallery__img {
+	vertical-align: top;
+}
+
+.gallery__item {
+	width: 33.333%;
+}
+
+/* gallery section /*/
+
+
+
+/* crew section */
+
+section.crew {
+	padding: 105px 0 125px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.crew-list {
+	display: flex;
+	justify-content: space-around;
+}
+
+.section__title {}
+
+.crew-list {}
+
+.crew-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.crew-img {
+	margin: 0 auto 43px;
+	border-radius: 50%;
+	width: 85%;
+}
+
+.crew-occup {
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	color: #565656;
+	display: block;
+	margin-bottom: 21px;
+}
+
+.crew-name {
+	font-family: Catamaran;
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	color: #333333;
+}
+
+/* crew section /*/
+
+/* statistic section /*/
+.statistic {
+	background-image: url('../img/statistic-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 230px;
+	padding-bottom: 160px;
+}
+
+.container.statistic-info {}
+
+.statistic-info {
+	max-width: 800px;
+}
+
+.statistic-title {
+	text-align: left;
+	max-width: 84%;
+	font-size: 60px;
+	line-height: 1.2;
+	font-weight: 900;
+	letter-spacing: 0.01em;
+	color: #2f2f2f;
+}
+
+.statistic-info p {
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: 300;
+	letter-spacing: 0.01em;
+	color: #2b2b2b;
+}
+
+.statistics {
+	margin-top: 80px;
+	display: flex;
+	flex-flow: column wrap;
+	max-height: 96px;
+	text-transform: uppercase;
+}
+
+.statistics-number {
+
+	font-family: Catamaran;
+	font-size: 64px;
+	line-height: 24px;
+	margin-bottom: 18px;
+	font-weight: 900;
+	letter-spacing: 0.01em;
+	color: #ff690f;
+}
+
+.statistics-label {
+	font-size: 18px;
+	font-weight: 600;
+	color: #2b2b2b;
+	margin: 10px 0;
+}
+
+/* statistic section /*/
+
+
+/* testimonials section */
+
+section.testimonials {
+	padding: 162px 0;
+}
+
+.reviews {
+	text-align: center;
+}
+
+.rewievs-list {}
+
+.review-item {
+	display: none;
+	opacity: 0;
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+.review-item.active {
+	display: block;
+	opacity: 1;
+	transition: all .3s;
+}
+
+.review-img {
+	margin-top: 30px;
+}
+
+.review-name {
+	font-family: Catamaran;
+	font-size: 18px;
+	line-height: 1.2;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	color: #333333;
+}
+
+.review-text {
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: 300;
+	letter-spacing: 0.01em;
+	color: #565656;
+	width: 56%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.review-img__block {
+	position: relative;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.review-img__block:before {
+	content: url('../img/quote-left.png');
+	position: absolute;
+	bottom: -8px;
+	right: 138px;
+
+}
+
+.review-img__block:after {
+	content: url('../img/quote-right.png');
+	position: absolute;
+	bottom: -8px;
+	left: 138px;
+
+}
+
+.slider-dots {
+	display: flex;
+	margin-top: 51px;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider-dots__item {
+	width: 13px;
+	height: 13px;
+	background-color: #cdd4db;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin: 0 15px;
+	cursor: pointer;
+}
+
+.slider-dots--active {
+	background-color: #ff660d;
+}
+
+/* testimonials section /*/
+
+
+/* footer */
+
+footer {
+	background-color: #333333;
+	display: flex;
+}
+
+.contacts {
+	padding: 100px 100px;
+	width: 35%;
+}
+
+.footer-title {
+	text-align: left;
+	color: #fff;
+}
+
+.contacts-info__item {
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	color: #f7f7f7;
+	margin-bottom: 35px;
+}
+
+.contacts-info__item:before {
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+}
+
+.contacts-phone:before {
+	content: url('../img/tel.png');
+}
+
+.contacts-address:before {
+	content: url('../img/place.png');
+}
+
+.contacts-mail:before {
+	content: url('../img/message.png');
+}
+
+.contacts-hour:before {
+	content: url('../img/time.png');
+}
+
+.social-list {
+	display: flex;
+	align-items: baseline;
+}
+
+.social-list__item {
+	margin-right: 38px;
+}
+
+.social__img {
+	opacity: 0.5;
+}
+
+.map-section {
+	width: 65%;
+	overflow: hidden;
+}
+
+.map-img {
+	height: 100%;
+	max-width: initial;
+}
+
+/* button style */
+
+.to-top {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 20px 35px 20px;
+	border-color: transparent transparent #31a9ef8a;
+	display: none;
+	position: fixed;
+	bottom: 2%;
+	right: 1%;
+	cursor: pointer;
+	transition: border-color .3s;
+}
+
+.to-top:hover {
+	border-color: transparent transparent #31a9efcf;
+}
+
+
+/* footer/ */
